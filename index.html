@@ -53,7 +53,7 @@
     if(musik) {audio.src = musik;} function mulai() { audio.play(); document.querySelector(".open").style = "opacity: 0;"; 
     document.querySelector(".body").style = "overflow-y: scroll;"; setTimeout(function () { document.querySelector(".open").style.display = "none"; }, 1000); } 
     function wa(isi) { window.open("https://api.whatsapp.com/send?text=i'm gonna say, " + isi); } async function tanya() 
-    { var { value: kado } = await swal.fire({ title: "how's your reaction? ketik di bawah yaa", input: "text", showCancelButton: false, }); 
+    { var { value: kado } = await swal.fire({ title: "Amira's reaction? ketik di bawah yaa", input: "text", showCancelButton: false, }); 
     if (kado) { await swal.fire("Kirim jawabannya ke wa aku ya"); wa(kado); } else { await swal.fire("Jangan dikosongin dong :("); tanya(); } } </script> <p class="wm"></p>
   </body>
 </html>
